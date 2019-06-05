@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+  </head>
+  <body>
+    <div class="vopros1" >
+        <div class="mt-5 col-10 container">
+        <h1>5*5=???</h1>
+    </div>
+    <div class="col-10 container">
+        <div class="border otveta ">19</div>
+        <div class="border otvetb ">25</div>
+        <div class="border otvetc">73</div>
+    </div>
+    </div>
+
+    <div class="vopros2" style="display: none">
+        <div class="mt-5 col-10 container">
+        <h1>Кто написал Отцы и дети?</h1>
+    </div>
+    <div class="col-10 container">
+        <div class="border otvet1 ">Александр Сергеевич Пушкин</div>
+        <div class="border otvet2 ">Генрих Гейне</div>
+        <div class="border otvet3">Иван Сергеевич Тургенев</div>
+    </div>
+    </div>
+
+    <div class="vopros3" style="display: none">
+        <div class="mt-5 col-10 container">
+        <h1>Сколько лет Путину?</h1>
+    </div>
+    <div class="col-10 container">
+        <div class="border otvet1a ">66</div>
+        <div class="border otvet2b ">54</div>
+        <div class="border otvet3c">19 000</div>
+    </div>
+    </div>
+
+    <div class="vopros4" style="display: none">
+        <div class="mt-5 col-10 container">
+        <h1> Когда закончилась смута?<h1>
+    </div>
+    <div class="col-10 container">
+        <div class="border otveta1 ">1702</div>
+        <div class="border otvetb2 ">1613</div>
+        <div class="border otvetc3">1619</div>
+    </div>
+    </div>
+    
+    <div class="vopros5" style="display: none">
+        <div class="mt-5 col-10 container">
+        <h1>Откуда скрин?<h1>
+            <img src="sherlock.jpg">
+    </div>
+    <div class="col-10 container">
+        <div class="border otvetaa ">Доктор Хаус</div>
+        <div class="border otvetbb ">Игра Престолов</div>
+        <div class="border otvetcc">Шерлок</div>
+    </div>
+    </div>
+    
+
+    <script type="text/javascript">
+    	document.querySelector(".otveta").onclick = function(){
+            alert("неправильно")
+
+        };
+    	document.querySelector(".otvetb").onclick = function(){
+            alert("правильно")
+            document.querySelector(".vopros1").style.display = "none";
+            document.querySelector(".vopros2").style.display = "block";
+        };
+    	document.querySelector(".otvetc").onclick = function(){
+            alert("неправильно")
+
+        };
+
+        document.querySelector(".otvet1").onclick = function(){
+            alert("неправильно")
+
+        };
+        document.querySelector(".otvet2").onclick = function(){
+            alert("неправильно");
+        };
+        document.querySelector(".otvet3").onclick = function(){
+            alert("правильно");
+            document.querySelector(".vopros2").style.display = "none";
+            document.querySelector(".vopros3").style.display = "block";
+
+        };
+
+        document.querySelector(".otvet1a").onclick = function(){
+            alert("правильно")
+            document.querySelector(".vopros3").style.display = "none";
+            document.querySelector(".vopros4").style.display = "block";
+
+        };
+        document.querySelector(".otvet2b").onclick = function(){
+            alert("неправильно");
+        };
+        document.querySelector(".otvet3c").onclick = function(){
+            alert("неправильно");
+
+        };
+
+        document.querySelector(".otveta1").onclick = function(){
+            alert("неправильно")
+
+        };
+        document.querySelector(".otvetb2").onclick = function(){
+            alert("правильно");
+            document.querySelector(".vopros4").style.display = "none";
+            document.querySelector(".vopros5").style.display = "block";
+        };
+        document.querySelector(".otvet3c").onclick = function(){
+            alert("неправильно");
+
+        };
+
+        document.querySelector(".otvetaa").onclick = function(){
+            alert("неправильно")
+
+        };
+        document.querySelector(".otvetbb").onclick = function(){
+            alert("неправильно");
+        };
+        document.querySelector(".otvetcc").onclick = function(){
+            alert("правильно");
+            document.querySelector(".vopros5").style.display = "none";
+            document.querySelector(".vopros6").style.display = "block";
+
+        }
+        
+
+
+    </script>
+  </body>
+</html>
+
